@@ -1,6 +1,6 @@
 
 @echo off
-fc /N C:\\Users\\ESRELA\\Documents\\CProgramming\\testador_0.1\\inputs\\%1.txt C:\\Users\\ESRELA\\Documents\\CProgramming\\testador_0.1\\inputs\\%2.txt
+fc /N C:\\Users\\ESRELA\\Documents\\CProgramming\\TestadorW\\Inputs\\%1.txt C:\\Users\\ESRELA\\Documents\\CProgramming\\TestadorW\\Inputs\\%2.txt
 echo %ERRORLEVEL%
 
 IF %ERRORLEVEL% NEQ 0 (

@@ -4,7 +4,7 @@ using namespace std;
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 
 int main(){
-  freopen("C:\\Users\\ESRELA\\Documents\\CProgramming\\testador_0.1\\inputs\\testcase.txt", "w", stdout);
+  freopen("C:\\Users\\ESRELA\\Documents\\CProgramming\\TestadorW\\inputs\\testcase.txt", "w", stdout);
   int n = rng()%100;
   cout << n;
 }

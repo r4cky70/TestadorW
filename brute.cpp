@@ -18,8 +18,8 @@ typedef pair < int, int > pii;
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 
 int main(){
-  freopen("C:\\Users\\ESRELA\\Documents\\CProgramming\\testador_0.1\\inputs\\testcase.txt", "r", stdin);
-  freopen("C:\\Users\\ESRELA\\Documents\\CProgramming\\testador_0.1\\inputs\\outbrute.txt", "w", stdout);
+  freopen("C:\\Users\\ESRELA\\Documents\\CProgramming\\TestadorW\\Inputs\\testcase.txt", "r", stdin);
+  freopen("C:\\Users\\ESRELA\\Documents\\CProgramming\\TestadorW\\Inputs\\outbrute.txt", "w", stdout);
   int n;
   cin >> n;
   for(int i = 1; i < n; ++i){

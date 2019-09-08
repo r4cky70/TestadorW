@@ -2,13 +2,13 @@
 using namespace std;
 
 int main(){
-  system("g++ gerador.cpp -std=c++14 -o C:\\Users\\ESRELA\\Documents\\CProgramming\\testador_0.1\\runs\\ger");
-  system("g++ brute.cpp -std=c++14 -o C:\\Users\\ESRELA\\Documents\\CProgramming\\testador_0.1\\runs\\bru");
-  system("g++ teste.cpp -std=c++14 -o C:\\Users\\ESRELA\\Documents\\CProgramming\\testador_0.1\\runs\\tes");
+  system("g++ gerador.cpp -std=c++14 -o C:\\Users\\ESRELA\\Documents\\CProgramming\\TestadorW\\Runs\\ger");
+  system("g++ brute.cpp -std=c++14 -o C:\\Users\\ESRELA\\Documents\\CProgramming\\TestadorW\\Runs\\bru");
+  system("g++ teste.cpp -std=c++14 -o C:\\Users\\ESRELA\\Documents\\CProgramming\\TestadorW\\Runs\\tes");
   while(true){
-    system("C:\\Users\\ESRELA\\Documents\\CProgramming\\testador_0.1\\runs\\ger");
-    system("C:\\Users\\ESRELA\\Documents\\CProgramming\\testador_0.1\\runs\\bru");
-    system("C:\\Users\\ESRELA\\Documents\\CProgramming\\testador_0.1\\runs\\tes");
+    system("C:\\Users\\ESRELA\\Documents\\CProgramming\\TestadorW\\Runs\\ger");
+    system("C:\\Users\\ESRELA\\Documents\\CProgramming\\TestadorW\\Runs\\bru");
+    system("C:\\Users\\ESRELA\\Documents\\CProgramming\\TestadorW\\Runs\\tes");
     system("call ErrorCatcher.bat outbrute out");
   }
 }
